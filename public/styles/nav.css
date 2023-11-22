@@ -1,0 +1,20 @@
+.no-arrow::after {
+    display: none !important;
+}
+
+.nav-item{
+    margin-left: 100px;
+  }
+  
+  .nav-link > img{
+    height: 80px;
+  }
+  
+  #options {
+      top: 100%; /* Atur posisi di bawah elemen induk */
+      left: 0;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 5px;
+      list-style: none;
+    }

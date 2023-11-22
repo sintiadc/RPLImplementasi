@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("./partials/head") %>
+    <link rel ="stylesheet" href="styles/profilmenu.css">
+
+<body>   
+    <%- include("./partials/nav") %>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul id="profilname">
+                        <img id="poto-profil" src="image/potoProfil.png" alt="poto-profil" width="auto" height="50"/>
+                        <div>
+                            <a><strong>Username</strong></a> 
+                            <br>
+                            <a>username@gmail.com</a>
+                        </div>
+                    </ul>
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <img id="poto-profil" src="image/wheel.png"/> Vehicle 1 - Vehicle Number
+                            </button>
+                          </h2>
+
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="container">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="editDriver1">Driver:</label>
+                                            <!-- Ganti input dengan elemen span -->
+                                            <span id="editDriver1" class="form-control">Nama Driver</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="editVehicle1">Vehicle:</label>
+                                            <!-- Ganti input dengan elemen span -->
+                                            <span id="editVehicle1" class="form-control">Jenis Kendaraan</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="editColor1">Color:</label>
+                                            <!-- Ganti input dengan elemen span -->
+                                            <span id="editColor1" class="form-control">Warna Kendaraan</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="editPlatNumber1">Plat Number:</label>
+                                            <!-- Ganti input dengan elemen span -->
+                                            <span id="editPlatNumber1" class="form-control">Nomor Plat</span>
+                                        </div> <br>
+                                        <a href="#" class="btn btn-primary">Edit</a>
+                                    </form>
+
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                  <img id="poto-profil" src="image/wheel.png"/> Vehicle 1 - Vehicle Number
+                              </button>
+                            </h2>
+  
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#flush-collapseTwo">
+                              <div class="accordion-body">
+                                  <div class="container">
+                                      <form>
+                                          <div class="form-group">
+                                              <label for="editDriver1">Driver:</label>
+                                              <!-- Ganti input dengan elemen span -->
+                                              <span id="editDriver1" class="form-control">Nama Driver</span>
+                                          </div>
+                                          <div class="form-group">
+                                              <label for="editVehicle1">Vehicle:</label>
+                                              <!-- Ganti input dengan elemen span -->
+                                              <span id="editVehicle1" class="form-control">Jenis Kendaraan</span>
+                                          </div>
+                                          <div class="form-group">
+                                              <label for="editColor1">Color:</label>
+                                              <!-- Ganti input dengan elemen span -->
+                                              <span id="editColor1" class="form-control">Warna Kendaraan</span>
+                                          </div>
+                                          <div class="form-group">
+                                              <label for="editPlatNumber1">Plat Number:</label>
+                                              <!-- Ganti input dengan elemen span -->
+                                              <span id="editPlatNumber1" class="form-control">Nomor Plat</span>
+                                          </div> <br>
+                                          <a href="#" class="btn btn-primary">Edit</a>
+                                      </form>
+  
+                              </div>
+                            </div>
+                          </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Friday, 14 May 2023
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
