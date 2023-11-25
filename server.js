@@ -32,6 +32,14 @@ app.get("/Login", function (req, res) {
     res.render("Login");
 });
 
+app.get("/SignUp", function (req, res) {
+    res.render("SignUp");
+});
+
+app.get("/SignUp2", function (req, res) {
+    res.render("SignUp2");
+});
+
 app.get("/e-ticket", function (req, res) {
     res.render("e-ticket");
 });
