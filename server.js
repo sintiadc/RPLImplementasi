@@ -49,6 +49,9 @@ app.get("/History", function (req, res) {
 app.get("/profil", function (req, res) {
     res.render("Profil");
 });
+app.get("/editVehicle", function (req, res) {
+    res.render("editVehicle");
+});
 
 
 app.listen(port, function () {
