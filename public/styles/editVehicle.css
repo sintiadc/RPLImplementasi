@@ -1,4 +1,8 @@
-.card{
-    background-color: white;
-    color: white;
+* {
+    background-color: #f5faff;
 }
+
+.form{
+    margin-top: 2%;
+}
+
