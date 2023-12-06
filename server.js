@@ -57,6 +57,10 @@ app.get("/addVehicle", function (req, res) {
     res.render("addVehicle");
 });
 
+app.get("/employe", function (req, res) {
+    res.render("employe");
+});
+
 
 app.listen(port, function () {
     console.log(`Server is running on http://${host}:${port}`);

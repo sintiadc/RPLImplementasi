@@ -1,0 +1,49 @@
+* {
+    background-color: #f5faff;
+}
+
+.no-arrow::after {
+    display: none !important;
+}
+
+#home-nav>img {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.nav-item {
+    margin-left: 100px;
+}
+
+/*
+.nav-link > img{
+    height: 80px;
+}
+  */
+
+#Booking>img {
+    height: 80px;
+}
+
+#History>img {
+    height: 80px;
+}
+
+
+.boxScan>img {
+    margin-top: 5%;
+    width: auto;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card-header {
+
+    background-color: #1b78ac;
+
+    display: flex;
+    justify-content: space-between;
+
+}
