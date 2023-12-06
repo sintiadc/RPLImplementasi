@@ -42,8 +42,14 @@
 .card-header {
 
     background-color: #1b78ac;
-
     display: flex;
     justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    font-size:larger;
+}
 
+.card-body > a {
+    color: gray;
+    font-size:larger;
 }
