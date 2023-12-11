@@ -60,6 +60,9 @@ app.get("/addVehicle", function (req, res) {
 app.get("/employe", function (req, res) {
     res.render("employe");
 });
+app.get("/admin", function (req, res) {
+    res.render("admin");
+});
 
 
 app.listen(port, function () {
