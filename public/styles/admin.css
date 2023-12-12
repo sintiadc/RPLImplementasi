@@ -2,6 +2,9 @@
   background-color: #f5faff;
 }
 
+.card-content{
+
+}
 
 /*------------------------------------------------------------------
  [Master Stylesheet]
@@ -10411,6 +10414,8 @@ input[type="button"].btn-block {
 .card {
   position: relative;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;

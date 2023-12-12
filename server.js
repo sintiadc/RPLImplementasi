@@ -64,7 +64,6 @@ app.get("/admin", function (req, res) {
     res.render("admin");
 });
 
-
 app.listen(port, function () {
     console.log(`Server is running on http://${host}:${port}`);
 });
