@@ -1,0 +1,56 @@
+* {
+    background-color: #f5faff;
+}
+
+.no-arrow::after {
+    display: none !important;
+}
+
+#home-nav>img {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.nav-item {
+    margin-left: 100px;
+}
+
+/*
+.nav-link > img{
+    height: 80px;
+}
+  */
+
+#Scan>img {
+    height: 80px;
+}
+
+#History>img {
+    height: 80px;
+}
+
+#List>img {
+    height: 90px;
+}
+
+
+.boxScan>img {
+    margin-top: 5%;
+    width: auto;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.table thead {
+    background-color: blue;
+    color: white; /* Warna teks pada header */
+}
