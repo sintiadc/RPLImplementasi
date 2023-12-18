@@ -75,6 +75,9 @@ app.get("/adminHistory", function (req, res) {
 app.get("/adminHistory2", function (req, res) {
     res.render("adminHistory2");
 });
+app.get("/adminEmploye", function (req, res) {
+    res.render("adminEmploye");
+});
 
 app.listen(port, function () {
     console.log(`Server is running on http://${host}:${port}`);
