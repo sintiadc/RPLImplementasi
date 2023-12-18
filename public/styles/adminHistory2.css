@@ -1,0 +1,30 @@
+* {
+    background-color: #f5faff;
+}
+
+#home-nav>img {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+#admin-e > img{
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 8%;
+}
+
+#admin-history > img{
+    height: 80px;
+    margin-left: 100px;
+    margin-top: -2%;
+}
+
+.card >h1{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.card {
+    margin-top: 5%;
+}
