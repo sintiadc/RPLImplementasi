@@ -25,8 +25,9 @@
     height: 80px;
 }
 
-#History>img {
-    height: 80px;
+#List>img {
+    height: 90px;
+    margin-top: -5%;
 }
 
 
@@ -50,9 +51,11 @@
     font-size:larger;
 }
 
-.card-body > a {
-    color: gray;
-    font-size:larger;
+.card-footer{
+    background-color: #1b78ac;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
 }
 
 .card-body >a {
@@ -71,4 +74,22 @@
 .container {
     display: flex;
     justify-content: center;
+}
+
+.card{
+    text-align: center;
+    display: flex;
+}
+
+.form-control {
+    /* Gaya untuk form input */
+    width: 40%; /* Sesuaikan lebar form input */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    /* Properti lain yang diperlukan */
+
+}
+.col >h1{
+    margin-bottom: 3%;
 }

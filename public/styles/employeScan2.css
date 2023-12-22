@@ -21,34 +21,25 @@
 }
   */
 
-#Scan>img {
+#Booking>img {
     height: 80px;
 }
-
 
 #List>img {
     height: 90px;
     margin-top: -5%;
 }
 
+.card-header {
 
-.boxScan>img {
-    margin-top: 5%;
-    width: auto;
-    height: 450px;
-    justify-content: center;
-    align-items: center;
+    background-color: #1b78ac;
     display: flex;
-    
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    font-size:larger;
 }
 
-
-.container {
-    display: flex;
-    justify-content: center;
-}
-
-.table thead {
-    background-color: blue;
-    color: white; /* Warna teks pada header */
+.card-header >a{
+    background-color: #1b78ac;
 }
