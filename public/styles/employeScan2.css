@@ -43,3 +43,28 @@
 .card-header >a{
     background-color: #1b78ac;
 }
+
+.card-body h5:not(:has(strong)) {
+    color: #888; /* Ubah warna sesuai keinginan Anda */
+}
+
+.card-footer *{
+    background-color: white;
+}
+
+.card-footer{
+    background-color: white;
+}
+
+.card-body{
+    background-color: #DBEEFF;
+}
+
+.card-body *{
+    background-color: #DBEEFF;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+}
