@@ -78,3 +78,11 @@
 .card-bg{
     background-color: white;
 }
+
+.card-body >* {
+    background-color: white;
+}
+
+.card-body >a {
+    background-color: white;
+}
