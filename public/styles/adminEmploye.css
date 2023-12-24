@@ -1,0 +1,47 @@
+* {
+    background-color: #f5faff;
+}
+
+#home-nav>img {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+#admin-e > img{
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 8%;
+}
+
+#admin-history > img{
+    height: 80px;
+    margin-left: 100px;
+    margin-top: -2%;
+}
+
+#judul-adminHistory{
+    margin-bottom: 5%;
+    
+}
+
+.card{
+    margin-top: 5%;
+}
+
+#calenderAdmin{
+    width: 70px;
+    height: auto;
+}
+
+.col >h1{
+    margin-bottom: 3%;
+}
+
+.dropdown-menu >*{
+    background-color: white;
+}
+
+.navbar-brand{
+    margin-left: 2%;
+}

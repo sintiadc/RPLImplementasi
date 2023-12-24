@@ -28,3 +28,37 @@
 .card {
     margin-top: 5%;
 }
+
+.navbar-brand{
+    margin-left: 2%;
+}
+
+.dropdown-menu >*{
+    background-color: white;
+}
+
+.card >*{
+    background-color: white;
+}
+
+.total-customers {
+    background-color: white;
+}
+
+.search-container >*{
+    background-color: white;
+}
+
+.btn.btn-outline-primary {
+    border-color: #1b78ac; /* Ganti dengan warna garis tepi yang diinginkan */
+    box-shadow: #1b78ac;
+  }
+
+  #historyleft {
+    margin-top: -40%; /* Atur margin atas sebesar 20px */
+    width: 50px;
+    margin-left: 5%;
+  }
+
+
+  

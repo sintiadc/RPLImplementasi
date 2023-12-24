@@ -34,3 +34,24 @@
     height: auto;
 }
 
+.navbar-brand{
+    margin-left: 2%;
+}
+
+.dropdown-menu >*{
+    background-color: white;
+}
+
+#calenderAdmin {
+    background-color: white;
+}
+
+.list-group-item >a{
+    background-color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+a{
+    color: black;
+}

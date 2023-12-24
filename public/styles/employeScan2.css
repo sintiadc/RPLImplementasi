@@ -92,3 +92,39 @@
 .dropdown-menu > *{
   background-color: white;
 }
+
+.navbar-brand{
+    margin-left: 2%;
+}
+
+.row >h1{
+    margin-bottom: 2%;
+}
+
+.card-header >*{
+    margin-left: 2%;
+}
+
+.card-body >*{
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+.card-footer >*{
+    margin-left: 5%;
+}
+
+.baris-kosong {
+    height: 1.5em; /* Mengatur tinggi setara dengan satu baris */
+  }
+
+  #confirmPayment{
+    background-color: #1b78ac;
+    width: 200px; 
+    margin-top: 3%;
+    font-weight: bold;
+  }
+
+  .dropdown-menu >*{
+    background-color: white;
+}

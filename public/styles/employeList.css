@@ -15,6 +15,10 @@
     margin-left: 100px;
 }
 
+.navbar-brand{
+    margin-left: 2%;
+}
+
 /*
 .nav-link > img{
     height: 80px;
@@ -48,7 +52,11 @@
     justify-content: center;
 }
 
-.table thead {
-    background-color: blue;
-    color: white; /* Warna teks pada header */
+.col >h1{
+    margin-bottom: 3%;
 }
+
+.dropdown-menu >*{
+    background-color: white;
+}
+  
