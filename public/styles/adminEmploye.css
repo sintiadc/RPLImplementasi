@@ -45,3 +45,8 @@
 .navbar-brand{
     margin-left: 2%;
 }
+
+.btn-custom {
+    height: 40px; /* Ubah angka sesuai dengan tinggi yang diinginkan */
+    background-color: #1b78ac;
+  }

@@ -26,7 +26,7 @@
 }
 
 .card {
-    margin-top: 5%;
+
 }
 
 .navbar-brand{
@@ -55,9 +55,7 @@
   }
 
   #historyleft {
-    margin-top: -40%; /* Atur margin atas sebesar 20px */
     width: 50px;
-    margin-left: 5%;
   }
 
 
